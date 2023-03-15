@@ -1,0 +1,35 @@
+.home {
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+.home section {
+  border-radius: var(--border-radius);
+  background-color: var(--color-contrast);
+}
+
+.home section article {
+  padding: 3rem;
+}
+
+.home section article header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.home section article p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.home section article footer {
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
