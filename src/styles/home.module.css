@@ -5,6 +5,7 @@
 }
 
 .home section {
+  border: 1px solid var(--border-color);
   border-radius: var(--border-radius);
   background-color: var(--color-contrast);
 }
@@ -32,4 +33,13 @@
   gap: 1rem;
   display: flex;
   align-items: center;
+}
+
+.home section article footer svg {
+  fill: var(--text-secondary);
+}
+
+.home section article footer svg:hover {
+  fill: var(--color-live);
+  transition: 0.15s ease-in-out;
 }

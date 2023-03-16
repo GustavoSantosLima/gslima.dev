@@ -2,7 +2,7 @@ import "@/styles/globals.css";
 import Link from "next/link";
 import Image from "next/image";
 import { Orbitron } from "next/font/google";
-import styles from "@/styles/layout.module.css";
+import Navbar from "./navbar";
 
 const orbitron = Orbitron({ subsets: ["latin"] });
 
@@ -27,19 +27,7 @@ export default function RootLayout({
             height={60}
           />
 
-          <nav>
-            <ul>
-              <li>
-                <Link href="/">Home</Link>
-              </li>
-              <li>
-                <Link href="/about">Sobre</Link>
-              </li>
-              <li>
-                <Link href="/contact">Contato</Link>
-              </li>
-            </ul>
-          </nav>
+          <Navbar />
         </header>
 
         {children}

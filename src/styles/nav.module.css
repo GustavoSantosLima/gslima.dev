@@ -1,0 +1,26 @@
+#nav {
+  display: flex;
+  align-items: center;
+}
+
+#nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+#nav > ul li > a {
+  padding: 1rem;
+  font-weight: 700;
+}
+
+#nav button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: var(--text-primary);
+}
