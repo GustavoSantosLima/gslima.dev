@@ -3,8 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import styles from "@/styles/nav.module.css";
 import { Moon, Sun } from "@/helpers/Icons";
+import styles from "@/styles/nav.module.css";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -30,9 +30,13 @@ export default function Navbar() {
       </ul>
 
       {theme === "light" ? (
-        <button onClick={() => handleTheme("dark")}>{Moon}</button>
+        <button id={styles.btnTheme} onClick={() => handleTheme("dark")}>
+          {Moon}
+        </button>
       ) : (
-        <button onClick={() => handleTheme("light")}>{Sun}</button>
+        <button id={styles.btnTheme} onClick={() => handleTheme("light")}>
+          {Sun}
+        </button>
       )}
     </nav>
   );

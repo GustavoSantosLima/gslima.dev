@@ -24,3 +24,15 @@
   border-radius: 50%;
   color: var(--text-primary);
 }
+
+@media (max-width: 450px) {
+  #nav > ul li > a {
+    padding: 0.75rem;
+  }
+
+  #nav #btnTheme {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+}
