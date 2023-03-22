@@ -8,27 +8,14 @@ export default function Home() {
       <section>
         <article>
           <header>
-            <h1>Gustavo S. Lima</h1>
+            <h1>Meu Blog Pessoal</h1>
           </header>
 
           <p>
-            Desenvolvedor Web Full Stack, apaixonado por tecnologia e
-            programação. Atualmente estou focado em desenvolvimento de
-            aplicações web com React, NextJS e NodeJS. Pore tenho experiência
-            com outras tecnologias como: PHP, Laravel, MySQL entre outras.
+            Aqui vou escrever sobre coisas que eu acho interessante no mundo da
+            programação. como este blog ainda está em desenvolvimento, não tem
+            muita coisa aqui ainda, mas em breve terá. 😜
           </p>
-
-          <footer>
-            <Link href="https://github.com/GustavoSantosLima" target="_blank">
-              {Github}
-            </Link>
-            <Link
-              href="https://www.linkedin.com/in/gustavosantoslima"
-              target="_blank"
-            >
-              {LinkedIn}
-            </Link>
-          </footer>
         </article>
       </section>
     </main>
