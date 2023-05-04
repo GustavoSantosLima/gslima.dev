@@ -21,12 +21,12 @@ export default function Navbar() {
         <li className={pathname === "/" ? "active" : ""}>
           <Link href="/">Home</Link>
         </li>
-        <li className={pathname === "/about" ? "active" : ""}>
+        {/* <li className={pathname === "/about" ? "active" : ""}>
           <Link href="/about">Sobre</Link>
         </li>
         <li className={pathname === "/contact" ? "active" : ""}>
           <Link href="/contact">Contato</Link>
-        </li>
+        </li> */}
       </ul>
 
       {theme === "light" ? (

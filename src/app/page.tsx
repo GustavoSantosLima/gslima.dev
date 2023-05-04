@@ -8,14 +8,48 @@ export default function Home() {
       <section>
         <article>
           <header>
-            <h1>Meu Blog Pessoal</h1>
+            <h1>Gustavo S. Lima</h1>
           </header>
 
           <p>
-            Aqui vou escrever sobre coisas que eu acho interessante no mundo da
-            programação. como este blog ainda está em desenvolvimento, não tem
-            muita coisa aqui ainda, mas em breve terá. 😜
+            Meu nome é Gustavo e sou um desenvolvedor web com sete anos de
+            experiência profissional. Durante minha carreira, trabalhei com
+            várias tecnologias como PHP usando Laravel e CodeIgniter, JavaScript
+            usando React, Vue, AngularJS (até Jquery já usei rs) e CSS usando
+            BootsTrap, Material UI, TailWind e etc.
           </p>
+          <p>
+            Além disso, acredito que um trabalho bem-sucedido depende da
+            colaboração em equipe, e sempre busco estabelecer uma comunicação
+            clara e objetiva com meus colegas de trabalho.
+          </p>
+          <p>
+            Em resumo, sou um desenvolvedor comprometido com a qualidade e
+            atualização constante de habilidades e conhecimentos técnicos.
+            Trabalho bem em equipe e busco sempre entregar soluções de alta
+            qualidade para meus clientes.
+          </p>
+
+          <div id="contact">
+            <header>
+              <h1>Contatos</h1>
+            </header>
+
+            <footer>
+              <Link href="https://github.com/GustavoSantosLima" target="_blank">
+                {Github}
+                <span>GitHub</span>
+              </Link>
+
+              <Link
+                href="https://www.linkedin.com/in/gustavosantoslima"
+                target="_blank"
+              >
+                {LinkedIn}
+                <span>LinkedIn</span>
+              </Link>
+            </footer>
+          </div>
         </article>
       </section>
     </main>

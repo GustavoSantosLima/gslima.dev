@@ -84,6 +84,32 @@ body header nav > ul li.active > a::after {
   color: var(--text-primary);
 }
 
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#contact footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+#contact footer a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#contact footer a:hover,
+#contact footer a:hover svg {
+  fill: var(--color-live);
+  color: var(--color-live);
+  transition: 0.15s ease-in-out;
+}
+
 @media (max-width: 640px) {
   body > header {
     padding: 0;
