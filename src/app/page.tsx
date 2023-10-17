@@ -1,10 +1,10 @@
-import { Github, LinkedIn } from "@/helpers/Icons";
-import styles from "@/styles/home.module.css";
+import { Github, LinkedIn } from "@/helpers/icons";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className={styles.home}>
+    <main className="gl-home">
       <section>
         <article>
           <header>
@@ -12,11 +12,10 @@ export default function Home() {
           </header>
 
           <p>
-            Meu nome é Gustavo e sou um desenvolvedor web com sete anos de
-            experiência profissional. Durante minha carreira, trabalhei com
-            várias tecnologias como PHP usando Laravel e CodeIgniter, JavaScript
-            usando React, Vue, AngularJS (até Jquery já usei rs) e CSS usando
-            BootsTrap, Material UI, TailWind e etc.
+            Sou desenvolvedor web desde 2015. Durante minha carreira, trabalhei
+            com várias tecnologias como PHP usando Laravel e CodeIgniter,
+            JavaScript usando React, Vue, AngularJS (até Jquery já usei rs) e
+            CSS usando BootsTrap, Material UI, TailWind e etc.
           </p>
           <p>
             Além disso, acredito que um trabalho bem-sucedido depende da
@@ -32,18 +31,18 @@ export default function Home() {
 
           <div id="contact">
             <header>
-              <h1>Contatos</h1>
+              <h2>Contatos</h2>
             </header>
 
             <footer>
-              <Link href="https://github.com/GustavoSantosLima" target="_blank">
+              <Link target="_blank" href="https://github.com/GustavoSantosLima">
                 {Github}
                 <span>GitHub</span>
               </Link>
 
               <Link
-                href="https://www.linkedin.com/in/gustavosantoslima"
                 target="_blank"
+                href="https://www.linkedin.com/in/gustavosantoslima"
               >
                 {LinkedIn}
                 <span>LinkedIn</span>

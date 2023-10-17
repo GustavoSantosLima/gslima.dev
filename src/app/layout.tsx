@@ -1,7 +1,7 @@
-import "@/styles/globals.css";
-import Link from "next/link";
-import Image from "next/image";
+import type { Metadata } from "next";
 import { Orbitron } from "next/font/google";
+import "./globals.css";
+import Image from "next/image";
 import Navbar from "./navbar";
 
 const orbitron = Orbitron({ subsets: ["latin"] });
@@ -17,14 +17,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt-br">
       <body className={orbitron.className}>
-        <header>
+        <header className="gl-header">
           <Image
-            src="/gustavo.jpeg"
-            alt="Imagem do Gustavo"
             width={60}
             height={60}
+            src="/gustavo.jpeg"
+            alt="Imagem do Gustavo"
           />
 
           <Navbar />

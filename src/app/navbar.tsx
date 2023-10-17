@@ -1,10 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Moon, Sun } from "@/helpers/Icons";
-import styles from "@/styles/nav.module.css";
+import { usePathname } from "next/navigation";
+import { Moon, Sun } from "@/helpers/icons";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -12,11 +11,11 @@ export default function Navbar() {
 
   function handleTheme(value: string) {
     setTheme(value);
-    document.body.setAttribute("id", value);
+    document.documentElement.setAttribute("id", value);
   }
 
   return (
-    <nav id={styles.nav}>
+    <nav className="gl-navbar">
       <ul>
         <li className={pathname === "/" ? "active" : ""}>
           <Link href="/">Home</Link>
@@ -30,11 +29,11 @@ export default function Navbar() {
       </ul>
 
       {theme === "light" ? (
-        <button id={styles.btnTheme} onClick={() => handleTheme("dark")}>
+        <button id="btnTheme" onClick={() => handleTheme("dark")}>
           {Moon}
         </button>
       ) : (
-        <button id={styles.btnTheme} onClick={() => handleTheme("light")}>
+        <button id="btnTheme" onClick={() => handleTheme("light")}>
           {Sun}
         </button>
       )}
