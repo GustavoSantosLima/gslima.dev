@@ -1,4 +1,4 @@
-import { Github, LinkedIn } from "../helpers/icons";
+import { Github, LinkedIn } from "../helpers/Icons";
 import Link from "next/link";
 
 export default function Home() {
