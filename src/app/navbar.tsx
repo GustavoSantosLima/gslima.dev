@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
-import { Moon, Sun } from "@/helpers/icons";
+import { Moon, Sun } from "../helpers/icons";
 
 export default function Navbar() {
   const pathname = usePathname();

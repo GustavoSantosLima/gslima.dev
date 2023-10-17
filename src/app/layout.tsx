@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Orbitron } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
