@@ -86,8 +86,13 @@ body header nav > ul li.active > a::after {
 
 #contact {
   display: flex;
+  margin-top: 2rem;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+#contact h2 {
+  margin-bottom: 0.75rem;
 }
 
 #contact footer {
@@ -183,7 +188,7 @@ body header nav > ul li.active > a::after {
 .gl-home section article header h1 {
   font-size: 2rem;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   color: var(--text-primary);
 }
 

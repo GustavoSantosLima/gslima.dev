@@ -1,6 +1,6 @@
 import { Orbitron } from "next/font/google";
-import "./globals.css";
 import Image from "next/image";
+import "./globals.css";
 import Navbar from "./navbar";
 
 const orbitron = Orbitron({ subsets: ["latin"] });
