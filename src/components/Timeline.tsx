@@ -4,6 +4,7 @@ type TimelineProps = {
   title: string;
   startDate: string;
   role: string;
+  description: string;
   technologies: string[];
   endDate?: string;
 };
@@ -13,6 +14,7 @@ export default function Timeline({
   title,
   endDate,
   startDate,
+  description,
   technologies
 }: TimelineProps) {
   return (
@@ -31,6 +33,7 @@ export default function Timeline({
         <div className="text-sm mb-4">
           <ul className="flex flex-col gap-1 list-disc list-inside">
             <li>Cargo: {role}</li>
+            <li>Descrição: {description}</li>
             <li>
               Tecnologias:
               <ul className="flex flex-col gap-1 list-[circle] ml-9">

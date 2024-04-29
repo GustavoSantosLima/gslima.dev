@@ -12,22 +12,21 @@ export default function Home() {
           </header>
 
           <p>
-            Sou desenvolvedor web desde 2015. Durante minha experiência,
-            trabalhei com várias tecnologias como PHP (Laravel e CodeIgniter),
-            JavaScript (React, Next, Vue, AngularJS, Jquery), CSS (BootsTrap,
-            Material UI, TailWind), TypeScript, HTML, SQL Server, MySQL,
-            MongoDB, Regis, Git/GitHub, Docker, entre outras.
+            Sou um profissional que atual na função de Desenvolvedor Web desde
+            2015 com habilidades sólidas na implementação de interfaces e
+            sistemas. Trabalhei com diversas tecnologias como PHP (Laravel e
+            CodeIgniter), JavaScript (React, Next, Vue, AngularJS, Jquery), CSS
+            (BootsTrap, Material UI, TailWind), TypeScript, HTML, SQL Server,
+            MySQL, MongoDB, Regis, Git/GitHub, Docker, entre outras.
+          </p>
+          <p>
+            Tenho boa comunicação e capacidade de se adaptar a diferentes
+            ambientes e demandas tecnológicas.
           </p>
           <p>
             Além disso, acredito que um trabalho bem-sucedido depende da
             colaboração em equipe, e sempre busco uma boa comunicação (clara e
             objetiva) com meus colegas de trabalho.
-          </p>
-          <p>
-            Em resumo, sou um desenvolvedor comprometido com a qualidade e
-            atualização constante de habilidades e conhecimentos técnicos.
-            Trabalho bem em equipe e busco sempre uma integração alegre e
-            divertida.
           </p>
 
           <section className="px-4 py-6 my-12">
@@ -40,6 +39,7 @@ export default function Home() {
                 title="Luiz Leonardos & Advogados"
                 startDate="Dezembro de 2022"
                 role="Desenvolvedor Front End"
+                description="Desenvolvimento de layouts para sistemas internos integração com API, manutenção de sistemas legados, entre outras atividades."
                 technologies={[
                   "HTML",
                   "CSS (Bootstrap, TailWind)",
@@ -52,10 +52,28 @@ export default function Home() {
               />
 
               <Timeline
+                title="Capped Out Media"
+                startDate="Junho de 2023"
+                endDate="Agosto de 2023"
+                role="Desenvolvedor Front End"
+                description="Trabalhei no desenvolvimento do fontend, de uma aplicação web para aluguel de estações de carregamente de carros elétricos, utilizando React e Next e integranção com API desenvolvida em PHP"
+                technologies={[
+                  "HTML",
+                  "CSS (TailWind)",
+                  "Styled-components",
+                  "JavaScript (React, Next)",
+                  "TypeScript",
+                  "Git/GitHub",
+                  "Autenticacão Social (Google, Facebook)"
+                ]}
+              />
+
+              <Timeline
                 title="Atitude Mídia Digital"
                 startDate="Setembro de 2015"
                 endDate="Novembro de 2022"
                 role="Desenvolvedor Web Full Stack"
+                description="Trabalhei ativamente no desenvolvimento de sites e sistemas internos, criação de player em tempo real usando protocolo WebRTC, contrução de API's, integração de sistemas, entre outras atividades."
                 technologies={[
                   "HTML",
                   "CSS (Bootstrap, Material UI, TailWind)",
